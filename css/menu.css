@@ -1,0 +1,46 @@
+﻿.menuItem-1{
+left:0
+}
+.menuItem-2{
+left:160px;
+}
+.menuItem-3{
+left:320px;
+}
+.menuItem-4{
+left:480px;
+}
+.menuItem-5{
+left:640px;
+}
+.menuItem-layer{
+position:absolute;	
+top:0;
+width:150px;
+height:40px;
+/*
+background:#47a3da;
+*/
+background-image: url(images/header-gradient.png) ;
+background-size:cover;
+
+border-radius:10px;
+border:3px solid white;
+box-shadow:0 0 10px grey;
+}
+ .menuItem-text{
+position:absolute;
+left:7.5px;
+top:6.5px;
+width:137.5px;
+height:20px;
+color:white;
+font-family: 'Lobster', cursive;
+font-size:18pt;
+/*
+background: #47a3da;
+*/
+}
+.menuItem-layer:hover{
+box-shadow: 0 0 20px ghostwhite;
+}
